@@ -14,7 +14,6 @@
             <h1>{{ $post->title }}</h1>
             <p class="lead">{!! $post->body !!}</p>
             <hr>
-            <h1>Adding a new h1</h1>
 
             <div class="tags">
                 @foreach($post->tags as $tag)
